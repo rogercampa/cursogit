@@ -68,7 +68,7 @@
     </div>
 
     <!-- Page Content -->
-    <div class="container">
+    <div class="container main">
 
         <div class="row">
 
@@ -274,6 +274,20 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    //<script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+    <script>
+        // init controller
+        var controller = new ScrollMagic.Controller();
+      	// build scene
+      	var scene = new ScrollMagic.Scene({triggerElement: ".main", offset: 100})
+      					// trigger animation by adding a css class
+      					.setClassToggle(".banner", "fade")
+      					//.addIndicators({name: "1 - add a class"}) // add indicators (requires plugin)
+      					.addTo(controller);
+    </script>
 
 </body>
 

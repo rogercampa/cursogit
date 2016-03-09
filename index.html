@@ -16,6 +16,7 @@
 
     <!-- Custom CSS -->
     <link href="css/thumbnail-gallery.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -48,10 +49,10 @@
                         <a href="#">Acerca de</a>
                     </li>
                     <li>
-                        <a href="#">Servicios</a>
+                        <a href="#services">Services</a>
                     </li>
                     <li>
-                        <a href="#">Contacto</a>
+                       <a href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -103,6 +104,41 @@
         </div>
 
         <hr>
+        
+        			<!-- Services -->
+			<div id="services" class="row slide clearfix active modulo"
+				style="display: block; width: 100%; left: 0%;">
+
+				<div class="col-lg-12">
+					<h1 class="page-header">Services</h1>
+				</div>
+
+			</div>
+			<hr>
+
+			<!-- Contact -->
+			<div id="contact" class="row slide clearfix active modulo"
+				style="display: block; width: 100%; left: 0%;">
+
+				<div class="col-lg-12">
+					<h1 class="page-header">Contact</h1>
+				</div>
+
+				<div class="col-lg-12">
+					<form id="contact-form">
+						<label id="label" for="name"></label><input name="name" id="name"
+							type="text" placeholder="nombre" value=""> <label
+							id="label1" for="mail"></label><input name="mail" id="mail"
+							type="text" placeholder="email" value=""> <label
+							id="label2" for="website"></label><input name="website"
+							id="website" type="text" placeholder="website" value="">
+						<textarea name="comment" placeholder="mensaje"></textarea>
+						<div id="msg" class="message"></div>
+						<input type="submit" id="submit" value="enviar" class="btn dark big">
+					</form>
+				</div>
+			</div>
+			<hr>
 
         <!-- Footer -->
         <footer>

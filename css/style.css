@@ -1,0 +1,281 @@
+/* Style CSS */
+
+/*================ Buttons ================= */
+.btn {
+	padding: 6px 12px;
+	border-radius: 2px;
+	-moz-transition: all .1s linear;
+	-o-transition: all .1s linear;
+	-ms-transition: all .1s linear;
+	transition: all .1s linear;
+	-webkit-transition: all .1s linear;
+	border: 0px;
+}
+
+.btn.dark {
+	background: #545454;
+	color: #fff;
+}
+
+.btn.dark:hover {
+	background: #3a3a3a;
+	color: #fff;
+}
+
+.btn.big {
+	font-size: 16px;
+	padding: 10px 20px;
+}
+
+/*-------------------------------------------------------*/
+/* contact
+/*-------------------------------------------------------*/
+#contact {
+	margin-bottom: 120px;
+}
+
+#contact h1 {
+	margin-bottom: 10px;
+}
+
+#contact p {
+	font-size: 13px;
+	color: #7d7d7d;
+	line-height: 20px;
+	margin-bottom: 20px;
+}
+
+div#map {
+	height: 320px;
+	padding: 5px;
+	border: 1px solid #e7e7e7;
+	margin-bottom: 30px;
+}
+
+#contact .span8 h1,#contact .span4 h1 {
+	color: #545454;
+}
+
+#contact-form {
+	margin-bottom: 40px;
+	margin-top: 40px;
+	display: inline-block;
+}
+
+#contact input[type="text"] {
+	float: left;
+	border: 1px solid #d8d8d8;
+	font-family: arial;
+	font-size: 14px;
+	color: #878787;
+	padding: 12px 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	display: block;
+	width: 24.53%;
+	background: rgba(255, 255, 255, 0.2);
+}
+
+#contact label {
+	float: left;
+	min-width: 46px;
+	height: 46px;
+	cursor: pointer;
+}
+
+#label {
+	background: #545454 url('../images/label1.png') center no-repeat;
+}
+
+#label1 {
+	background: #545454 url('../images/label2.png') center no-repeat;
+}
+
+#label2 {
+	background: #545454 url('../images/label3.png') center no-repeat;
+}
+
+#contact textarea {
+	clear: both;
+	border: 1px solid #d8d8d8;
+	font-size: 11px;
+	color: #878787;
+	width: 88.5%;
+	height: 140px;
+}
+
+#contact-form {
+	width: 100%;
+}
+
+.message {
+	margin-bottom: 15px;
+}
+
+/*-------------------------------------------------------*/
+/* Resume Section */
+/*-------------------------------------------------------*/
+#resume {
+
+	overflow: hidden;
+}
+
+h3.main-heading {
+	margin: 45px 2px 15px 2px;
+	font-size: 20px;
+}
+
+h3.main-heading:first-child {
+	margin-top: 0;
+}
+
+.skills-section,.timeline-section {
+	float: left;
+}
+/* Timeline Section */
+.timeline-section {
+	width: 600px;
+	padding-right: 60px;
+}
+
+.timeline {
+	padding-top: 10px;
+}
+
+.timeline li {
+	margin-bottom: 20px;
+}
+
+.timeline li .timelineUnit {
+	line-height: 17px;
+	color: #444;
+	font-size: 13px;
+	border-bottom: 1px solid #eee;
+	padding-bottom: 20px;
+}
+
+.timeline li .timelineUnit .timelineDate {
+	line-height: 17px;
+	color: #adadad;
+	font-size: 14px;
+	margin-left: 10px;
+	font-weight: normal;
+	padding: 2px 6px;
+	float: right;
+}
+
+.timeline li .timelineUnit h4 {
+	line-height: 24px;
+	font-size: 15px;
+	color: #444;
+}
+
+.timeline li .timelineUnit h5 {
+	line-height: 18px;
+	font-size: 13px;
+	color: #999;
+}
+
+.timeline li .timelineUnit p {
+	color: #666;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+.sidebar-widget {
+	margin: 15px 15px 45px 15px;
+}
+
+.sidebar-widget.last {
+	margin-bottom: 15px;
+}
+
+/* Skills Section */
+.skills-section {
+	width: 290px;
+	border: 5px solid rgba(190, 190, 190, 0.1);
+	box-shadow: inset 0px 0px 1px rgba(151, 151, 151, 1);
+}
+
+.skills-section h3.main-heading {
+	margin-top: 15px;
+}
+
+.skills {
+	overflow: hidden;
+	height: 100%;
+	list-style-type: circle !important;
+	list-style-position: inside;
+}
+
+.skills li {
+	margin-bottom: 15px;
+	list-style-type: none;
+}
+
+.skills li:last-child {
+	margin-bottom: 0;
+	list-style-type: none;
+}
+
+.skills-section  h4 {
+	display: block;
+	font-size: 15px;
+	color: #444;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 30px;
+}
+
+#resume .button {
+	margin-top: 20px;
+	float: right;
+}
+
+/* Progress Bar - New Skill bars
+=========================================================*/
+.progress-bar-skill {
+	
+}
+
+.progress-bar-skill li {
+	margin-bottom: 15px;
+	list-style-type: none;
+}
+
+.progress-bar-skill li:last-child {
+	margin-bottom: 0;
+}
+
+.meter {
+	height: 15px;
+	position: relative;
+	background: #f6f6f6;
+}
+
+.meter>span {
+	display: block;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	background: #93B300;
+}
+
+.meter>span:after,.animate>span>span {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	overflow: hidden;
+}
+
+.animate>span:after {
+	display: none;
+}
+
+.modulo {
+	min-height: 100vh;
+	padding-top: 50px;
+}

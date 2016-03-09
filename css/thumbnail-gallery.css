@@ -10,6 +10,7 @@ body {
 
 .thumb {
     margin-bottom: 30px;
+    position: relative;
 }
 
 footer {
@@ -19,4 +20,25 @@ footer {
 .banner {
     background: url("../images/git1.jpg");
     height: 230px;
+}
+
+.relative {
+    position: relative;
+}
+
+.overlay {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.3);
+    color: #fff;
+    font-weight: bold;
+    padding: 30px 0 0 30px;
+}
+
+.overlay:hover {
+    opacity: 1;
 }

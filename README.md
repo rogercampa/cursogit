@@ -1,2 +1,2 @@
 # cursogit
-Anuario (práctica del curso de Git de la ULL)
+SuperAnuario (práctica del curso de Git de la ULL)

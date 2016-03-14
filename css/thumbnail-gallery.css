@@ -20,17 +20,14 @@ footer {
 .banner {
     background: url("../images/git1.jpg");
     height: 230px;
+    position: fixed;
+    width: 100%;
+    height: 300px;
 }
 
 .fade {
   opacity: 0;
   transition: 1s;
-}
-
-.banner {
-    position: fixed;
-    width: 100%;
-    height: 300px;
 }
 
 .main {

@@ -30,7 +30,7 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -68,7 +68,7 @@
     </div>
 
     <!-- Page Content -->
-    <div class="container">
+    <div class="container main">
 
         <div class="row">
 
@@ -76,65 +76,91 @@
                 <h1 class="page-header">Anuario Curso Git</h1>
             </div>
 
-            <div class="col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="images/linus.jpg" alt="">
-                </a>
-                <div class="overlay">
-                  <h2 class="name">
-                      Linus Torvalds
-                  </h2>
-                  <div class="role">
-                      <strong>role: </strong>God
-                  </div>
-                  <div class="email">
-                      linus@torvalds.com
-                  </div>
-                  <div class="email">
-                      <a href="http://linux.com" target="_blank">Linux</a>
-                  </div>
-                </div>
-            </div>
-            
-             <div class="col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="images/linux-son.jpg" alt="">
-                </a>
-                <div class="overlay">
-                  <h2 class="name">
-                     Domingo Gonzalez
-                  </h2>
-                  <div class="role">
-                      <strong>role: </strong>El Hijo
-                  </div>
-                  <div class="email">
-                      son@torvalds.com
-                  </div>
-                  <div class="email">
-                      <a href="http://www.linux.com/news" target="_blank">Linux Son</a>
-                  </div>
-                </div>
-            </div>           
+            <!-- user Linus -->
 
             <div class="col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="https://pbs.twimg.com/profile_images/1359971538/156252_1745158149261_1247985615_1946344_3452160_a_400x400.jpg" alt="">
-                </a>
-                <div class="overlay">
-                  <h2 class="name">
-                      Roger Campanera
-                  </h2>
-                  <div class="role">
-                      <strong>role: </strong>Desarrollador de software y docente
-                  </div>
-                  <div class="email">
-                      git@roger.pro
-                  </div>
-                  <div class="email">
-                      <a href="http://roger.pro" target="_blank">Roger.pro</a>
-                  </div>
+                <div class="col-inner">
+                    <img class="img-responsive" src="http://i.imgur.com/QjO0bJ7.jpg" alt="">
+                    <div class="overlay" data-toggle="modal" data-target="#modal-linus">
+                        <h2 class="name">
+                            Linus Torvalds
+                        </h2>
+                        <div class="role">
+                            <strong>role: </strong>God
+                        </div>
+                    </div>
                 </div>
             </div>
+            <div class="col-md-4 col-xs-6 thumb">
+                <div class="col-inner">
+                    <img class="img-responsive" src="http://i.imgur.com/6Y4SVpt.jpg" alt="">
+                    <div class="overlay" data-toggle="modal" data-target="#modal-simone">
+                        <h2 class="name">
+                            Simone Marin
+                        </h2>
+                        <div class="role">
+                            <strong>role: </strong>css themer
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+		<div class="col-md-4 col-xs-6 thumb">
+                <div class="col-inner">
+                    <img class="img-responsive" src="http://i.imgur.com/woicTdE.jpg" alt="">
+                    <div class="overlay" data-toggle="modal" data-target="#modal-domingo">
+                        <h2 class="name">
+							Domingo González
+                        </h2>
+                        <div class="role">
+                            <strong>role: </strong>El hijo
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+		<div class="col-md-4 col-xs-6 thumb">
+                <div class="col-inner">
+                    <img class="img-responsive" src="http://i.imgur.com/70Xu1fn.jpg" alt="">
+                    <div class="overlay" data-toggle="modal" data-target="#modal-roger">
+                        <h2 class="name">
+							Roger Campanera
+                        </h2>
+                        <div class="role">
+                            <strong>role: </strong>Desarrollador de software y docente
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+		   <div class="col-md-4 col-xs-6 thumb">
+                <div class="col-inner">
+                    <img class="img-responsive" src="http://i.imgur.com/SKJLI7f.jpg" alt="">
+                    <div class="overlay" data-toggle="modal" data-target="#modal-raul">
+                        <h2 class="name">
+							Raúl Ulises
+                        </h2>
+                        <div class="role">
+                            <strong>role: </strong>Informático nv:34
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+			<div class="col-md-4 col-xs-6 thumb">
+                <div class="col-inner">
+                    <img class="img-responsive" src="http://i.imgur.com/du4uW9u.png" alt="">
+                    <div class="overlay" data-toggle="modal" data-target="#modal-jorge">
+                        <h2 class="name">
+							Jorge Aguiar
+                        </h2>
+                        <div class="role">
+                            <strong>role: </strong>Estudiante de Informatica.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 
             <div class="col-md-4 col-xs-6 thumb">
                 <a class="thumbnail" href="#">
@@ -159,7 +185,7 @@
         </div>
 
         <hr>
-        
+
         			<!-- Services -->
 			<div id="services" class="row slide clearfix active modulo"
 				style="display: block; width: 100%; left: 0%;">
@@ -199,7 +225,7 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p><!-- Lisencia --></p>
+                    <p>© 2016 software_guanche S.A.</p>
                 </div>
             </div>
         </footer>
@@ -207,11 +233,182 @@
     </div>
     <!-- /.container -->
 
+    <!-- Modal Linus-->
+    <div id="modal-linus" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Linus Torvalds</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Linus Benedict Torvalds (28 de diciembre de 1969, Helsinki, Finlandia) es un ingeniero de software finlandés estadounidense,1 conocido por iniciar y mantener el desarrollo del "kernel" (en español, núcleo) Linux, basándose en el sistema operativo libre Minix creado por Andrew S. Tanenbaum y en algunas herramientas, varias utilidades y los compiladores desarrollados por el proyecto GNU. Actualmente Torvalds es responsable de la coordinación del proyecto. Pertenece a la comunidad sueco-parlante de Finlandia.</p>
+                    <div class="email">
+                        linus@linux.com
+                    </div>
+                    <div class="web">
+                        <a href="http://linuc.com" target="_blank">Página web</a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Modal Simone-->
+    <div id="modal-simone" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Simone Marin</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Hola soy Simone, mi especialidades son instalaciones interactivas, programación visual con vvvv, desarrollo web front y backend y el tiramisú. Soy organizador de los festivales KEROXEN y NUMAcircuit y tengo varios proyectos artisticos en el ámbito del arte digital.</p>
+                    <div class="email">
+                        cimo75@gmail.com
+                    </div>
+                    <div class="web">
+                        <a href="http://keroxen.com" target="_blank">Página web</a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+	<!--Modal Domingo-->
+	<div id="modal-domingo" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Domingo González</h4>
+                </div>
+                <div class="modal-body">
+					<p>Domingo es un ciudadano ejemplar y gran persona.</p>
+                    <div class="email">
+                        son@torvalds.com
+                    </div>
+                    <div class="web">
+                        <a href="http://www.linux.com/new" target="_blank">Página web</a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+		</div>
+	</div>
+
+	<!--Modal Roger-->
+	<div id="modal-roger" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Raúl Ulises</h4>
+                </div>
+                <div class="modal-body">
+					<p>Roger es un ciudadano ejemplar y gran persona.</p>
+                    <div class="email">
+						git@roger.pro
+                    </div>
+                    <div class="web">
+                        <a href="http://roger.pro" target="_blank">Roger.pro</a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<!--Modal Raúl-->
+	<div id="modal-raul" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Raúl Ulises</h4>
+                </div>
+                <div class="modal-body">
+					<p>Raúl entrenó con los SEALS, es cinturón negro en 23 artes marciales, actualmente trabaja para el servicio inteligente español "Técnicos de Investigación Aeroterráquea" (TIA).</p>
+                    <div class="email">
+                        martin.jurses@gmail.com
+                    </div>
+                    <div class="web">
+                        <a href="https://es.wikipedia.org/wiki/raul_ulises_supermolon" target="_blank">Página web</a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+	<!--Modal Jorge-->
+	<div id="modal-jorge" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Jorge Aguiar</h4>
+                </div>
+                <div class="modal-body">
+					<p>Jorge es un ciudadano ejemplar y gran persona.</p>
+                    <div class="email">
+                        alguien@undominio.com
+                    </div>
+                    <div class="web">
+                        <a href="http://github.com/alu0100823295" target="_blank">Página web</a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    //<script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+    <script>
+        // init controller
+        var controller = new ScrollMagic.Controller();
+      	// build scene
+      	var scene = new ScrollMagic.Scene({triggerElement: ".main", offset: 300})
+      					// trigger animation by adding a css class
+      					.setClassToggle(".banner", "fade")
+      					//.addIndicators({name: "1 - add a class"}) // add indicators (requires plugin)
+      					.addTo(controller);
+    </script>
 
 </body>
 

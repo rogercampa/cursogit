@@ -20,9 +20,21 @@ footer {
 .banner {
     background: url("../images/git1.jpg");
     height: 230px;
+    position: fixed;
+    width: 100%;
+    height: 300px;
 }
 
-.relative {
+.fade {
+  opacity: 0;
+  transition: 1s;
+}
+
+.main {
+    margin-top: 200px;
+}
+
+.col-inner {
     position: relative;
 }
 
@@ -33,10 +45,12 @@ footer {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(255,255,255,0.3);
+    background: rgba(0,0,0,0.7);
     color: #fff;
     font-weight: bold;
     padding: 30px 0 0 30px;
+    cursor: pointer;
+    transition: 1s;
 }
 
 .overlay:hover {
